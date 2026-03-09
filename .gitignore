@@ -1,0 +1,15 @@
+# debug.log
+# **/logs/**/debug.log
+# *.log
+# !important.log
+# debug?.log
+# debug[01a].log
+# debug[0-9].log
+debug[!a-z].log
+
+# logs/**/debug.log
+logs/*day/debug.log
+
+# cache/
+tmp/
+err.txt
